@@ -1,2 +1,2 @@
-# django-ticketing
-Django application for providing an internal communication channel to django projects through a tickets system
+# django-icc
+Django application to provide an internal communication channel for django projects through a tickets system
