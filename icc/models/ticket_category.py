@@ -16,7 +16,8 @@ class TicketCategory(models.Model):
     class Meta:
         ordering = ['parent__name', 'name', ]
         unique_together = ('name', 'parent')
-        verbose_name_plural = "ticket categories"
+        verbose_name = _("ticket category")
+        verbose_name_plural = _("ticket categories")
 
     def __str__(self):
         return self.name
