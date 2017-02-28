@@ -14,7 +14,7 @@ SHORT_DESCRIPTION = ('Django application to provide an internal communication ch
                      'tickets system')
 
 INSTALL_REQUIREMENTS = [
-    'Django (==1.10)', 'django',
+    'django>=1.10',
 ]
 
 setup(
